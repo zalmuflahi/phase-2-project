@@ -1,12 +1,48 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import PlanetCards from './PlanetCards'
+import Home from './Home'
+import { useEffect, useState } from 'react'
+import {
+  createBrowserRouter,
+  RouterProvider,
+  useNavigate,
+} from "react-router-dom";
+
+
+
 
 function App() {
+  const [planets, setPlanets] = useState([])
+
   
 
+
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Home />,
+    },
+    {
+      path: "/:id",
+      element: <PlanetCards planets={planets} />,
+    },
+  ]);
+ 
+
+
+  useEffect(()=>{
+    const request = async() => {
+      let req = await fetch('http://localhost:3000/PLANETS')
+      let res = await req.json()
+      setPlanets(res)
+    }
+    request()
+  }, [])
+
+
+  
   return (
     <div className="App">
+    <RouterProvider router={router} />
     </div>
   )
 }
