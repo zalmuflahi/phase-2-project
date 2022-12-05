@@ -1,0 +1,101 @@
+ {
+"PLANETS": [
+    {
+        "name": "Earth",
+        "image": "",
+        "description": "",
+        "distance": "",
+        "size": "",
+        "age": "",
+        "populations": "",
+        "orbits": "",
+        "fun_fact": ""
+    },
+    {
+        "name": "Mars",
+        "image": "",
+        "description": "",
+        "distance": "",
+        "size": "",
+        "age": "",
+        "populations": "",
+        "orbits": "",
+        "fun_fact": ""
+    },
+    {
+        "name": "Mercury",
+        "image": "",
+        "description": "",
+        "distance": "",
+        "size": "",
+        "age": "",
+        "populations": "",
+        "orbits": "",
+        "fun_fact": ""
+    },
+    {
+        "name": "Jupiter",
+        "image": "",
+        "description": "",
+        "distance": "",
+        "size": "",
+        "age": "",
+        "populations": "",
+        "orbits": "",
+        "fun_fact": ""
+    },
+    {
+        "name": "Venus",
+        "image": "",
+        "description": "",
+        "distance": "",
+        "size": "",
+        "age": "",
+        "populations": "",
+        "orbits": "",
+        "fun_fact": ""
+    },
+    {
+        "name": "Saturn",
+        "image": "",
+        "description": "",
+        "distance": "",
+        "size": "",
+        "age": "",
+        "populations": "",
+        "orbits": "",
+        "fun_fact": ""
+    },
+    {
+        "name": "Uranus",
+        "image": "",
+        "description": "",
+        "distance": "",
+        "size": "",
+        "age": "",
+        "populations": "",
+        "orbits": "",
+        "fun_fact": ""
+    },
+    {
+        "name": "Neptune",
+        "image": "",
+        "description": "",
+        "distance": "",
+        "size": "",
+        "age": "",
+        "populations": "",
+        "orbits": "",
+        "fun_fact": ""
+    }
+]
+
+
+
+ }
+ 
+ 
+
+
+
+
