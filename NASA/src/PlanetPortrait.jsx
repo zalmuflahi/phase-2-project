@@ -4,12 +4,14 @@ import {
     useNavigate,
     useParams,
   } from "react-router-dom";
+  import './App.css'
 
 function PlanetPortrait({planet}){
-    const navigate = useNavigate()
-    let {id} = useParams()
+
         return (
-           <img src={planet.image} alt={planet.name} onClick={() => navigate(`/${planet.id}`)} />
+            <div>
+           <img src={planet.image} alt={planet.name} style={{width: 500, height:600 }}/>
+           </div>
         )
 }
 

@@ -6,7 +6,7 @@ import {
   RouterProvider,
   useNavigate,
 } from "react-router-dom";
-
+import './App.css'
 
 
 
@@ -19,7 +19,7 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Home />,
+      element: <Home planets={planets}/>,
     },
     {
       path: "/:id",

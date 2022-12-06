@@ -1,17 +1,20 @@
 import PlanetPortrait from "./PlanetPortrait";
 import PlanetBio from "./PlanetBio";
+import './App.css'
+
+import {
+    useParams,
+  } from "react-router-dom";
+
 
 const PlanetCards = ({planets}) => {  
+   const {id} = useParams();
     return (
         <div>
-            {
-            planets.map((planet) => (
                 <div>
-                    <PlanetPortrait planet={planet} />
-                    <PlanetBio planet={planet} />
+                    <PlanetPortrait planet={planets[id-1]} className='planet-container' />
+                    <PlanetBio planet={planets[id-1]} />
                 </div>
-            ))
-            }
             </div>
     )
 }

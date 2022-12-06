@@ -1,5 +1,29 @@
-export default function Home() {
+
+import {
+    createBrowserRouter,
+    RouterProvider,
+    useNavigate,
+    useParams,
+  } from "react-router-dom";
+
+
+export default function Home({planets}) {
+    const navigate = useNavigate()
+
     return (
-        <h1>qwertykljhgfdsa</h1>
+       
+        <div className="container">
+    {        planets.map((planet)=> {
+            return (
+                <div key={planet.id} className="row" onClick={() => navigate(`/${planet.id}`)}>
+                    <img src={planet.image} style={{ width: '100px' , height: 'auto'}}/>      
+                   
+                    </div>
+                    )
+        })
+        }
+        
+       
+        </div>
     )
 }
