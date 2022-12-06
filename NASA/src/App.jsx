@@ -6,6 +6,7 @@ import {
   RouterProvider,
   useNavigate,
 } from "react-router-dom";
+import Sun from "./Sun"
 import './App.css'
 
 
@@ -25,6 +26,10 @@ function App() {
       path: "/:id",
       element: <PlanetCards planets={planets} />,
     },
+    {
+      path: "/sun",
+      element: <Sun />,
+    },
   ]);
  
 
@@ -43,6 +48,7 @@ function App() {
   return (
     <div className="App">
     <RouterProvider router={router} />
+ 
     </div>
   )
 }
