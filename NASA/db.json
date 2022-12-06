@@ -11,11 +11,12 @@
         "populations": "4.543 billion years",
         "orbits": "One complete orbit takes 365.256 days",
         "fun_fact": "Earth has never been perfectly round."
+        
     },
     {
         "id": 2,
         "name": "Mars",
-        "image": "https://static.wikia.nocookie.net/ultraverse/images/f/f0/Mars_-1.png/revision/latest?cb=20191016011255",
+        "image": "https://www.freepnglogos.com/uploads/mars-png/mars-interactive-solar-system-13.png",
         "description": "Mars is the fourth planet from the Sun a dusty, cold, desert world with a very thin atmosphere. Mars is also a dynamic planet with seasons, polar ice caps, canyons, extinct volcanoes, and evidence that it was even more active in the past.",
         "distance": "143.19 million mi",
         "size": "2,106.1 mi(Radius)",
@@ -63,7 +64,7 @@
     {
         "id": 6,
         "name": "Saturn",
-        "image": "https://assets.stickpng.com/images/580b585b2edbce24c47b270d.png",
+        "image": "https://i.pinimg.com/originals/14/e1/d8/14e1d84bb0b2f3cd38f87e6735e47fab.png",
         "description": "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth. It has only one-eighth the average density of Earth; however, with its larger volume, Saturn is over 95 times more massive.",
         "distance": "890.8 million mi",
         "size": "36,184 mi (Radius)",
@@ -96,6 +97,7 @@
         "orbits": "165 years",
         "fun_fact": "Neptune is the final planet in the Solar System"
     }
+    
 ]
 
 

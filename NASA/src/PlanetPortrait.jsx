@@ -10,7 +10,7 @@ function PlanetPortrait({planet}){
 
         return (
             <div>
-           <img src={planet.image} alt={planet.name} style={{width: 500, height:600 }}/>
+           <img src={planet.image} alt={planet.name} style={{width: 500, height: 'auto' }}/>
            </div>
         )
 }
