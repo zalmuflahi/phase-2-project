@@ -8,7 +8,7 @@ function PlanetPortrait({planet}){
 
         return (
             <div>
-           <img src={planet.image} alt={planet.name} style={{width: 500, height: 'auto' }}  onClick={()=>navigate('/')}/>
+           <img src={planet.image} alt={planet.name} style={{width: 500, height: 'auto' }} onClick={()=>navigate('/')}/>
            </div>
         )
 }

@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Sun from "./Sun"
 import './App.css'
+import YouTubeVid from './YouTubeVid';
 
 
 
@@ -30,6 +31,10 @@ function App() {
       path: "/sun",
       element: <Sun />,
     },
+    {
+      path: "/yt",
+      element: <YouTubeVid />,
+    }
   ]);
  
 
