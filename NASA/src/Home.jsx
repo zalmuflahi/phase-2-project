@@ -28,7 +28,9 @@ export default function Home({ planets }) {
                     />
             
           
-                <button onClick={() => navigate('/yt')}>History Of Our Solar System</button>
+                <button className='button' onClick={() => navigate('/yt')}>Videos Of Our Solar System</button>
+                <button className='button' onClick={() => navigate('/misson')}>Space Missions</button>
+                <button className='button' onClick={() => navigate('/spaceimg')}>Space Images</button>
         
             
         </div>

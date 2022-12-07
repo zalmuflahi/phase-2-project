@@ -9,6 +9,8 @@ import {
 import Sun from "./Sun"
 import './App.css'
 import YouTubeVid from './YouTubeVid';
+import Missions from './Missions';
+import SpaceImg from './SpaceImg';
 
 
 
@@ -34,6 +36,14 @@ function App() {
     {
       path: "/yt",
       element: <YouTubeVid />,
+    },
+    {
+      path: "/misson",
+      element: <Missions />,
+    },
+    {
+      path: "/spaceimg",
+      element: <SpaceImg />,
     }
   ]);
  
