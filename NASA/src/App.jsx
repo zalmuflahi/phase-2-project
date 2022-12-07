@@ -4,24 +4,28 @@ import { useEffect, useState } from 'react'
 import {
   createBrowserRouter,
   RouterProvider,
-  useNavigate,
 } from "react-router-dom";
 import Sun from "./Sun"
 import './App.css'
 import YouTubeVid from './YouTubeVid';
+import GalaxyPage from './GalaxyPage';
 
 
 
 function App() {
   const [planets, setPlanets] = useState([])
 
-  
+
 
 
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Home planets={planets}/>,
+      element: <GalaxyPage />,
+    },
+    {
+      path: "/solar",
+      element: <Home planets={planets} />,
     },
     {
       path: "/:id",
@@ -36,11 +40,11 @@ function App() {
       element: <YouTubeVid />,
     }
   ]);
- 
 
 
-  useEffect(()=>{
-    const request = async() => {
+
+  useEffect(() => {
+    const request = async () => {
       let req = await fetch('http://localhost:3000/PLANETS')
       let res = await req.json()
       setPlanets(res)
@@ -49,11 +53,11 @@ function App() {
   }, [])
 
 
-  
+
   return (
     <div className="App">
-    <RouterProvider router={router} />
- 
+      <RouterProvider router={router} />
+
     </div>
   )
 }
