@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 const Missions = () => {
     const navigate = useNavigate() 
     return(
-        <div className='info-dump'>
+        <div className='info-dump2'>
             <h1>First Mission</h1>
             <p>We human beings have been venturing into space since October 4, 1957, when the Union of Soviet Socialist Republics (U.S.S.R.) launched Sputnik, the first artificial satellite to orbit Earth. This happened during the period of political hostility between the Soviet Union and the United States known as the Cold War.</p>
             <h1>First Man Mission</h1>
