@@ -5,9 +5,65 @@ background-size : 100%;
 background-position : center;
 }
 
- .plant-container {
-     grid-area: 2 / 1 / span 2 / span 3 / 4/ 5/ 6/ 7 / 8;
- }
- 
-    
+.container {
+        height: 20px;
+        width: 20px;
+        background:radial-gradient(circle,#935f2a 60% #54370c 75%);
+        border-radius: 50%;
+        position: absolute;
+        box-shadow: -4px 2px 56px #f9c05f;
+        left: 30%;
+        top: 30%;
+        transform: translate(-50%,-50%);
+        animation: orbit2 30s linear infinite;
+        /* border: 50px dotted #ddd9; */
+        /* padding: 20em */
+        
+    } 
 
+     @keyframes orbit2 { 
+        from{transform:rotate(0deg)translatex(70px)rotate(0deg);}
+        to{transform: rotate(0deg)translatex(70px)rotate(-360deg);}
+    }
+
+
+
+
+.center{
+        height: 120px;
+        width: 120px;
+        border-radius: 100%;
+        background-size: cover;
+        box-shadow: -4px 2px 56px #f9c05f;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+}
+ 
+/* .container{
+    border: solid 1px red;
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 100%;
+    margin-top: -300px;
+    margin-left:-300px;
+
+}
+
+.center{
+    height:200px;
+    width: 200px;
+    background: radial-gradient(#f5c313, #ec7e08);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 100%;
+    margin-top: -100px;
+    margin-left: -100px;
+    box-shadow: 0 0 50px #f5c91a;
+} */
