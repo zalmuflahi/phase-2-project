@@ -1,6 +1,6 @@
-
-import { useNavigate } from "react-router-dom";
-
+import {
+    useNavigate,
+} from "react-router-dom";
 
 const YouTubeVid = () => {
     const navigate = useNavigate()
@@ -33,7 +33,7 @@ const YouTubeVid = () => {
 
                 />
         </div>
-            <button className='button' onClick={() => navigate('/')}>Main Page</button>
+            <button className='button' onClick={() => navigate('/solar')}>Main Page</button>
         </div>
     )
 }

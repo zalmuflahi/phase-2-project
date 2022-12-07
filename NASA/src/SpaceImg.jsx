@@ -12,7 +12,7 @@ const SpaceImg = () => {
             <img src="https://wallpaperaccess.com/full/3010132.jpg"/>
         </div>
         
-            <button className='button' onClick={()=> navigate('/')}>Main Page</button>
+            <button className='button' onClick={()=> navigate('/solar')}>Main Page</button>
         </div>
        
     )

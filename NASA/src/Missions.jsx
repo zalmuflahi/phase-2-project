@@ -23,7 +23,7 @@ const Missions = () => {
             <p>•Dogs</p>
             <p>•Spiders</p>
             <p>•Fish</p>
-            <button className='button' onClick={() => navigate('/')}>Main Page</button>
+            <button className='button' onClick={() => navigate('/solar')}>Main Page</button>
         </div>
     )
 }
