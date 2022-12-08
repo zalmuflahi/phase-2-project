@@ -3,12 +3,6 @@ body {
     background-size: 100%;
    
 }
-.nav-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-}
 
 
 .main{
@@ -72,43 +66,43 @@ body {
   }
   .Mars {
    
-    animation-duration: 160s;
+    animation-duration: 100s;
     width: 50px;
     height: auto;
-    --c: 320px; /* CHANGE THIS FOR DISTANCE FROM THE SUN */
+    --c: 300px; /* CHANGE THIS FOR DISTANCE FROM THE SUN */
    
   }
 
   .Saturn {
    
-    animation-duration: 400s;
+    animation-duration: 300s;
     width: 60px;
     height: auto;
-    --c: 480px;
+    --c: 460px;
   }
 
  .Uranus {
    
-    animation-duration: 600s;
+    animation-duration: 400s;
     height: 30px; 
     width: auto; 
-    --c: 550px;
+    --c: 520px;
  }
 
  .Neptune {
    
-    animation-duration: 700s;
+    animation-duration: 500s;
     width: 50px;
     height: auto;
-    --c: 620px;
+    --c: 550px;
  }
 
 .Jupiter {
    
-    animation-duration: 300s;
+    animation-duration: 200s;
     width: 90px;
     height: auto;
-    --c: 380px;
+    --c: 360px;
 }
 
 
@@ -123,12 +117,11 @@ body {
 }
 
 .button{
-    background-color: #2b698f6a;
+    background-color: #2b698f7d;
         border: none;
         color: white;
-        padding: 20px;
+        padding: 10px;
         text-align: center;
-        text-decoration: none;
         display: inline-block;
         font-size: 16px;
         margin: 4px 2px;
