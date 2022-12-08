@@ -1,13 +1,12 @@
 body {
     background-image: url('https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg');
-    background-blend-mode: ligthen;
     background-size: 100%;
    
 }
 
 .main{
-    width: 100vw; /* CHANGE THIS FOR WINDOW SIZE*/
-    height: 100vh; /* CHANGE THIS FOR WINDOW SIZE*/
+    width: 100vw; 
+    height: 100vh; 
     display: grid;
     justify-content: center;
     align-content: center;
@@ -17,10 +16,11 @@ body {
     grid-row: 1;
   }
   .item{
-    width: 100px; /* CHANGE THIS FOR PLANET SIZE*/
-    height: auto; /* CHANGE THIS FOR PLANET SIZE*/
-    animation: spinAround 6s linear infinite;
-    border: 1px solid red;
+    width: 100px; 
+    height: auto; 
+    animation: spinAround 60s linear infinite;
+   
+  
   }
   @keyframes spinAround{
     from{
@@ -31,47 +31,83 @@ body {
     }
   }
   .center{
-    width: 200px; /* CHANGE THIS FOR SUN SIZE*/
-    height: 200px; /* CHANGE THIS FOR SUN SIZE*/
-   border: 1px solid red;
+    width: 150px; 
+    height: auto; 
+   
   }
- 
+  .App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh; 
+  }
   .Earth {
-    --c: 250px; 
-    
-    /* CHANGE THIS FOR DISTANCE FROM THE SUN */
+   
+    animation-duration: 80s;
+    width: 40px;
+    height: auto;
+    --c: 260px; 
    
   }
   .Mercury {
-    --c: 250px; /* CHANGE THIS FOR DISTANCE FROM THE SUN */
+   
+    animation-duration: 40s;
+    height: 30px; 
+    width: auto; 
+    --c: 170px; 
     
   
   }
   .Venus {
-    --c: 250px; /* CHANGE THIS FOR DISTANCE FROM THE SUN */
+ 
+    animation-duration: 60s;
+    height: 30px; 
+    width: auto;
+    --c: 220px; 
    
    
   
   }
   .Mars {
-    --c: 250px; /* CHANGE THIS FOR DISTANCE FROM THE SUN */
+   
+    animation-duration: 100s;
+    width: 50px;
+    height: auto;
+    --c: 300px; 
    
   }
 
   .Saturn {
-    --c: 250px;
+   
+    animation-duration: 300s;
+    width: 60px;
+    height: auto;
+    --c: 460px;
   }
 
  .Uranus {
-    --c: 250px;
+   
+    animation-duration: 400s;
+    height: 30px; 
+    width: auto; 
+    --c: 520px;
  }
 
  .Neptune {
-    --c: 250px;
+   
+    animation-duration: 500s;
+    width: 50px;
+    height: auto;
+    --c: 550px;
  }
 
 .Jupiter {
-    --c: 250px;
+   
+    animation-duration: 200s;
+    width: 90px;
+    height: auto;
+    --c: 360px;
 }
 
 
@@ -87,12 +123,11 @@ body {
 }
 
 .button{
-    background-color: #2b698f6a;
+    background-color: #2b698f7d;
         border: none;
         color: white;
-        padding: 20px;
+        padding: 10px;
         text-align: center;
-        text-decoration: none;
         display: inline-block;
         font-size: 16px;
         margin: 4px 2px;
@@ -135,7 +170,7 @@ body {
 
 .app {
     color: rgb(228, 217, 233);
-        background-color: rgba(15, 58, 95, 0.482);
+    background-color: rgba(15, 58, 95, 0.482);
     height: 400px;
     width: 700px;
     margin-left: auto;
@@ -211,11 +246,5 @@ button:focus {
 
 button svg {
     margin-right: 5px;
-}
-.nav-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
 }
 
