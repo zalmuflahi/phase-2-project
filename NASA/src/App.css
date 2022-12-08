@@ -5,40 +5,76 @@ body {
    
 }
 
-/* .container {
-        height: 20px;
-        width: 20px;
-        background:radial-gradient(circle,#935f2a 60% #54370c 75%);
-        border-radius: 100%;
-        position: absolute;
-        left: 45%;
-        top: 50%;
-        transform: translate(-50%,-50%);
-        animation: orbit2 80s linear infinite;
-       
-        
-    } 
+.main{
+    width: 100vw; /* CHANGE THIS FOR WINDOW SIZE*/
+    height: 100vh; /* CHANGE THIS FOR WINDOW SIZE*/
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+  .main > * {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .item{
+    width: 100px; /* CHANGE THIS FOR PLANET SIZE*/
+    height: auto; /* CHANGE THIS FOR PLANET SIZE*/
+    animation: spinAround 6s linear infinite;
+    border: 1px solid red;
+  }
+  @keyframes spinAround{
+    from{
+      transform: rotate(0deg) translate(var(--c));
+    }
+    to{
+      transform: rotate(360deg) translate(var(--c));
+    }
+  }
+  .center{
+    width: 200px; /* CHANGE THIS FOR SUN SIZE*/
+    height: 200px; /* CHANGE THIS FOR SUN SIZE*/
+   border: 1px solid red;
+  }
+ 
+  .Earth {
+    --c: 250px; 
+    
+    /* CHANGE THIS FOR DISTANCE FROM THE SUN */
+   
+  }
+  .Mercury {
+    --c: 250px; /* CHANGE THIS FOR DISTANCE FROM THE SUN */
+    
+  
+  }
+  .Venus {
+    --c: 250px; /* CHANGE THIS FOR DISTANCE FROM THE SUN */
+   
+   
+  
+  }
+  .Mars {
+    --c: 250px; /* CHANGE THIS FOR DISTANCE FROM THE SUN */
+   
+  }
 
-     @keyframes orbit2 { 
-        from{transform:rotate(0deg)translatex(70px)rotate(0deg);}
-        to{transform: rotate(0deg)translatex(70px)rotate(-360deg);}
-    } */
+  .Saturn {
+    --c: 250px;
+  }
+
+ .Uranus {
+    --c: 250px;
+ }
+
+ .Neptune {
+    --c: 250px;
+ }
+
+.Jupiter {
+    --c: 250px;
+}
 
 
-
-
-/* .center{
-        height: 120px;
-        width: 120px;
-        border-radius: 100%;
-        background-size: cover;
-        
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-
-} */
 
 
 .space-img{
@@ -46,6 +82,7 @@ body {
         flex-wrap: wrap;
         padding: 0 3px;
         gap: 20px;
+        height:auto;
 
 }
 
@@ -100,9 +137,9 @@ body {
     color: rgb(228, 217, 233);
         background-color: rgba(15, 58, 95, 0.482);
     height: 400px;
+    width: 700px;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
     border-radius: 15px;
     padding: 20px;
     box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
@@ -175,3 +212,10 @@ button:focus {
 button svg {
     margin-right: 5px;
 }
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+

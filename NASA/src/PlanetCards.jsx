@@ -12,7 +12,7 @@ const PlanetCards = ({ planets }) => {
     return (
         <div>
             <div className='info-container'>
-                <PlanetPortrait planet={planets[id - 1]} className='planet-container' />
+                <PlanetPortrait planet={planets[id - 1]} />
                 <PlanetBio planet={planets[id - 1]} />
             </div>
         </div>

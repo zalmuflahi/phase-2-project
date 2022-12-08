@@ -17,10 +17,6 @@ import Quiz from './Quiz';
 
 function App() {
   const [planets, setPlanets] = useState([])
-
-
-
-
   const router = createBrowserRouter([
     {
       path: "/",
@@ -72,7 +68,6 @@ function App() {
   return (
     <div className="App">
       <RouterProvider router={router} />
-
     </div>
   )
 }
