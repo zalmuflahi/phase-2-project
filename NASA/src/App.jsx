@@ -16,10 +16,6 @@ import GalaxyPage from './GalaxyPage';
 
 function App() {
   const [planets, setPlanets] = useState([])
-
-
-
-
   const router = createBrowserRouter([
     {
       path: "/",
@@ -67,7 +63,6 @@ function App() {
   return (
     <div className="App">
       <RouterProvider router={router} />
-
     </div>
   )
 }
