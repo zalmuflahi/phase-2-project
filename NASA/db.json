@@ -1,7 +1,30 @@
  {
 "PLANETS": [
-    {
+     {
         "id": 1,
+        "name": "Mercury",
+        "image": "https://www.pngkey.com/png/full/185-1859728_drawn-planets-transparent-planet-mercury.png",
+        "description": "Mercury is the smallest planet in our solar system. It's a little bigger than Earth's Moon. It is the closest planet to the Sun, but it's actually not the hottest. Venus is hotter. Along with Venus, Earth, and Mars, Mercury is one of the rocky planets.",
+        "distance": "40.143 million mi",
+        "size": "1,516 mi",
+        "age": "4.503 billion years",
+        "populations": "0",
+        "orbits": "88 days",
+        "fun_fact": "Mercury is the only metal on earth that is liquid at room temperature"
+    },{
+        "id": 2,
+        "name": "Venus",
+        "image": "https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/AW_Venus_nli6oy.jpg",
+        "description": "Venus is the second planet from the Sun. It is sometimes called Earth's 'sister' or 'twin' planet as it is almost as large and has a similar composition. As an interior planet to Earth, Venus appears in Earth's sky never far from the Sun, either as morning star or evening star.",
+        "distance": " 67.24 million mi",
+        "size": "3,760.4 mi",
+        "age": "4.503 billion years",
+        "populations": "0",
+        "orbits": "225 days",
+        "fun_fact": "A day on Venus is longer than a year."
+    },
+    {
+        "id": 3,
         "name": "Earth",
         "image": "https://upload.wikimedia.org/wikipedia/commons/2/22/Earth_Western_Hemisphere_transparent_background.png",
         "description": "Our home planet Earth is a rocky, terrestrial planet. It has a solid and active surface with mountains, valleys, canyons, plains and so much more. Earth is special because it is an ocean planet. Water covers 70% of Earth's surface.",
@@ -14,7 +37,7 @@
         
     },
     {
-        "id": 2,
+        "id": 4,
         "name": "Mars",
         "image": "https://www.freepnglogos.com/uploads/mars-png/mars-interactive-solar-system-13.png",
         "description": "Mars is the fourth planet from the Sun a dusty, cold, desert world with a very thin atmosphere. Mars is also a dynamic planet with seasons, polar ice caps, canyons, extinct volcanoes, and evidence that it was even more active in the past.",
@@ -26,19 +49,7 @@
         "fun_fact": "Mars is named after the Roman god of war."
     },
     {
-        "id": 3,
-        "name": "Mercury",
-        "image": "https://www.pngkey.com/png/full/185-1859728_drawn-planets-transparent-planet-mercury.png",
-        "description": "Mercury is the smallest planet in our solar system. It's a little bigger than Earth's Moon. It is the closest planet to the Sun, but it's actually not the hottest. Venus is hotter. Along with Venus, Earth, and Mars, Mercury is one of the rocky planets.",
-        "distance": "40.143 million mi",
-        "size": "1,516 mi",
-        "age": "4.503 billion years",
-        "populations": "0",
-        "orbits": "88 days",
-        "fun_fact": "Mercury is the only metal on earth that is liquid at room temperature"
-    },
-    {
-        "id": 4,
+        "id": 5,
         "name": "Jupiter",
         "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Jupiter_%28transparent%29.png",
         "description": "Jupiter is covered in swirling cloud stripes. It has big storms like the Great Red Spot, which has been going for hundreds of years. Jupiter is a gas giant and doesn't have a solid surface, but it may have a solid inner core about the size of Earth. Jupiter also has rings, but they're too faint to see very well.",
@@ -48,18 +59,6 @@
         "populations": "0",
         "orbits": "12 years",
         "fun_fact": "Jupiter is the biggest planet in our solar system."
-    },
-    {
-        "id": 5,
-        "name": "Venus",
-        "image": "https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/AW_Venus_nli6oy.jpg",
-        "description": "Venus is the second planet from the Sun. It is sometimes called Earth's 'sister' or 'twin' planet as it is almost as large and has a similar composition. As an interior planet to Earth, Venus appears in Earth's sky never far from the Sun, either as morning star or evening star.",
-        "distance": " 67.24 million mi",
-        "size": "3,760.4 mi",
-        "age": "4.503 billion years",
-        "populations": "0",
-        "orbits": "225 days",
-        "fun_fact": "A day on Venus is longer than a year."
     },
     {
         "id": 6,
@@ -105,7 +104,5 @@
  }
  
  
-
-
 
 

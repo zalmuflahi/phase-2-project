@@ -8,18 +8,14 @@ import {
 import Sun from "./Sun"
 import './App.css'
 import YouTubeVid from './YouTubeVid';
-import GalaxyPage from './GalaxyPage';
 import Missions from './Missions';
 import SpaceImg from './SpaceImg';
+import GalaxyPage from './GalaxyPage';
 
 
 
 function App() {
   const [planets, setPlanets] = useState([])
-
-
-
-
   const router = createBrowserRouter([
     {
       path: "/",
@@ -67,7 +63,6 @@ function App() {
   return (
     <div className="App">
       <RouterProvider router={router} />
-
     </div>
   )
 }
