@@ -5,11 +5,14 @@ export default function Home({ planets }) {
     const navigate = useNavigate()
     return (
         <div className="container">
+            <br/>
+            <br/>
             <div className="nav-container">
                 <button className='button' onClick={() => navigate('/yt')}>Videos Of Our Solar System</button>
                 <button className='button' onClick={() => navigate('/misson')}>Space Missions</button>
                 <button className='button' onClick={() => navigate('/spaceimg')}>Space Images</button>
             </div>
+           
             <div className="main">
                
                     <img
