@@ -9,11 +9,11 @@ export default function Home({ planets }) {
             {
                 planets.map((planet) => {
                     return (
-                        <div key={planet.id} className= "row" onClick={() => navigate(`/${planet.id}`)}>
+                        
 
-                            <img src={planet.image} style={{ width: '70px', height: 'auto' }} />
+                            <img src={planet.image} style={{ width: '70px', height: 'auto' }} className={'item' + ' ' + planet.name} onClick={() => navigate(`/${planet.id}`)} />
                             
-                        </div>
+                        
                     )
                 })
             }
@@ -31,6 +31,7 @@ export default function Home({ planets }) {
                 <button className='button' onClick={() => navigate('/yt')}>Videos Of Our Solar System</button>
                 <button className='button' onClick={() => navigate('/misson')}>Space Missions</button>
                 <button className='button' onClick={() => navigate('/spaceimg')}>Space Images</button>
+                <button className='button' onClick={() => navigate('/quiz')}>Space Quiz</button>
         
             
         </div>

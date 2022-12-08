@@ -11,6 +11,7 @@ import YouTubeVid from './YouTubeVid';
 import Missions from './Missions';
 import SpaceImg from './SpaceImg';
 import GalaxyPage from './GalaxyPage';
+import Quiz from './Quiz';
 
 
 
@@ -48,6 +49,10 @@ function App() {
     {
       path: "/spaceimg",
       element: <SpaceImg />,
+    },
+    {
+      path: "/quiz",
+      element: <Quiz />,
     }
   ]);
 
