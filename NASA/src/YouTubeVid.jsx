@@ -1,10 +1,5 @@
-import {
-    useNavigate,
-} from "react-router-dom";
 
 import { useNavigate } from "react-router-dom";
-
-const YouTubeVid = () => {
 
 const YouTubeVid = () => {
     const navigate = useNavigate()
