@@ -23,10 +23,10 @@ body {
   }
   @keyframes spinAround{
     from{
-      transform: rotate(0deg) translate(var(--x));
+      transform: rotate(0deg) translate(var(--x), var(--y));
     }
     to{
-      transform: rotate(360deg) translate(var(--x));
+      transform: rotate(360deg) translate(var(--x), var(--y));
     }
   }
   .center{
@@ -35,69 +35,69 @@ body {
   }
   
   .Mercury {
-    animation-duration: 40s;
+    animation-duration: 20s;
     height: 30px; 
     width: auto; 
-    --x: -170px; 
-    
+    --x: -140px; 
+    --y: -100px
   }
   .Venus {
-    animation-duration: 50s;
+    animation-duration: 42s;
     height: 30px; 
     width: auto;
-    --x: 200px; 
-    
-  
+    --x: 195px; 
+    --y: -100px
   }
    .Earth {
 
-       animation-duration: 60s;
+       animation-duration: 45s;
        width: 40px;
        height: auto;
-       --x: -220px;
-       
-   }
+       --x: -235px;
+       --y: 110px
+   }   
+   
   .Mars {
    
-    animation-duration: 70s;
+    animation-duration: 50s;
     width: 50px;
     height: auto;
-    --x: 260px; 
-    
+    --x: 285px; 
+    --y: 120px
   }
 .Jupiter {
-    animation-duration: 80s;
-    width: 90px;
+    animation-duration: 55s;
+    width: 70px;
     height: auto;
-    --x: -310px;
-    
+    --x: -335px;
+    --y: -200px
 }
   .Saturn {
    
-    animation-duration: 90s;
+    animation-duration: 60s;
     width: 60px;
     height: auto;
-    --x: 360px;
-    
+    --x: 400px;
+    --y: 260px
   }
 
  .Uranus {
    
-    animation-duration: 100s;
+    animation-duration: 65s;
     height: 30px; 
     width: auto; 
     --x: -420px;
-    
+    --y: 310px
  }
 
 
  .Neptune {
    
-    animation-duration: 110s;
+    animation-duration: 40s;
     width: 50px;
     height: auto;
     --x: 470px;
-    
+    --y: -310px
  }
 
  
