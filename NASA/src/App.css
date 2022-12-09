@@ -93,7 +93,7 @@ body {
 
  .Neptune {
    
-    animation-duration: 40s;
+    animation-duration: 70s;
     width: 50px;
     height: auto;
     --x: 470px;
@@ -203,7 +203,7 @@ body {
   justify-content: space-between;
 }
 
-button {
+.answer-section button {
   background-color: #2b698f6a;
       border: none;
       color: white;
@@ -216,7 +216,10 @@ button {
       border-radius: 20px;
   
 }
-
+.nav-container{
+  display: flex;
+  flex-direction: wrap;
+}
 .correct {
   background-color: #2f922f;
 }

@@ -4,17 +4,18 @@ export default function Home({ planets }) {
     const navigate = useNavigate()
     
     return (
-
-        <div className="container">
-            <br/>
-            <br/>
+        <div>
             <div className="nav-container">
                 <button className='button' onClick={() => navigate('/yt')}>Videos Of Our Solar System</button><br/>
                 <button className='button' onClick={() => navigate('/misson')}>Space Missions</button><br />
                 <button className='button' onClick={() => navigate('/spaceimg')}>Space Images</button><br />
                 <button className='button' onClick={() => navigate('/quiz')}>Space Quiz</button><br />
             </div>
-           
+        <div className="container">
+            <br />
+            <br />
+            <br />
+            <br />
             <div className="main">
                
                     <img
@@ -33,6 +34,7 @@ export default function Home({ planets }) {
                         })
                     }
         </div>
+         </div>
          </div>
     )
 }
