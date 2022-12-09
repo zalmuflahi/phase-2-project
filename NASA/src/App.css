@@ -1,7 +1,6 @@
 body {
-    background-image: url('https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg');
-    background-size: 100%;
-   
+  background-image: url('https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg');
+  background-size: 100%;
 }
 
 .main{
@@ -24,219 +23,221 @@ body {
   }
   @keyframes spinAround{
     from{
-      transform: rotate(0deg) translate(var(--x));
+      transform: rotate(0deg) translate(var(--x), var(--y));
     }
     to{
-      transform: rotate(360deg) translate(var(--x));
+      transform: rotate(360deg) translate(var(--x), var(--y));
     }
   }
   .center{
     width: 150px; 
     height: auto; 
-   
   }
   
- 
   .Mercury {
-   
-    animation-duration: 40s;
+    animation-duration: 20s;
     height: 30px; 
     width: auto; 
-    --x: -160px; 
-    
+    --x: -140px; 
+    --y: -100px
   }
   
 
   .Venus {
- 
-    animation-duration: 60s;
+    animation-duration: 42s;
     height: 30px; 
     width: auto;
-    --x: 200px; 
-    
-  
+    --x: 195px; 
+    --y: -100px
   }
    .Earth {
 
-       animation-duration: 80s;
+       animation-duration: 45s;
        width: 40px;
        height: auto;
-       --x: -220px;
-       
-   }
+       --x: -235px;
+       --y: 110px
+   }   
+   
   .Mars {
    
-    animation-duration: 100s;
+    animation-duration: 50s;
     width: 50px;
     height: auto;
-    --x: 260px; 
-    
+    --x: 285px; 
+    --y: 120px
   }
 .Jupiter {
-    animation-duration: 200s;
-    width: 90px;
+    animation-duration: 55s;
+    width: 70px;
     height: auto;
-    --x: -300px;
-    
+    --x: -335px;
+    --y: -200px
 }
   .Saturn {
    
-    animation-duration: 300s;
+    animation-duration: 60s;
     width: 60px;
     height: auto;
-    --x: 360px;
-    
+    --x: 400px;
+    --y: 260px
   }
 
  .Uranus {
    
-    animation-duration: 400s;
+    animation-duration: 65s;
     height: 30px; 
     width: auto; 
     --x: -420px;
-    
+    --y: 310px
  }
+
 
  .Neptune {
    
-    animation-duration: 500s;
+    animation-duration: 70s;
     width: 50px;
     height: auto;
-    --x: 500px;
-    
+    --x: 470px;
+    --y: -310px
  }
 
+ 
 .space-img{
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0 3px;
-        gap: 20px;
-        height:auto;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 3px;
+      gap: 20px;
+      height:auto;
 
 }
 
 .button{
-    background-color: #2b698f7d;
-        border: none;
-        color: white;
-        padding: 10px;
-        text-align: center;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        border-radius: 20px;
+  background-color: #2b698f7d;
+      border: none;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      border-radius: 20px;
 }
 
- 
+
 .videos{
-    display: flex;
-        flex-wrap: wrap;
-        padding: 0 4px;
-        gap: 20px;
-        justify-content: center;
-        align-items: center;
+  display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
 
 }
 .info-dump {
-        width: 50vw;
-        font-size: medium;
-        color: rgb(228, 217, 233);
-        background-color:rgba(15, 58, 95, 0.482)
+      width: 50vw;
+      font-size: medium;
+      color: rgb(228, 217, 233);
+      background-color:rgba(15, 58, 95, 0.482)
 }
 .info-dump2 {
-    width: 100%;
-    height: auto;
-    font-size: medium;
-    color: rgb(228, 217, 233);
-    background-color:rgba(15, 58, 95, 0.482)
+  width: 100%;
+  height: auto;
+  font-size: medium;
+  color: rgb(228, 217, 233);
+  background-color:rgba(15, 58, 95, 0.482)
 }
 .info-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* padding:20px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .home-page {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 
 .app {
-    color: rgb(228, 217, 233);
-    background-color: rgba(15, 58, 95, 0.482);
-    height: 400px;
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 15px;
-    padding: 20px;
-    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
-    display: flex;
-    justify-content: space-evenly;
+  color: rgb(228, 217, 233);
+  background-color: rgba(15, 58, 95, 0.482);
+  height: 400px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .score-section {
-    display: flex;
-    font-size: 24px;
-    align-items: center;
+  display: flex;
+  font-size: 24px;
+  align-items: center;
 }
 
 
 .question-section {
-    width: 100%;
-    position: relative;
+  width: 100%;
+  position: relative;
 }
 
 .question-count {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .question-count span {
-    font-size: 28px;
+  font-size: 28px;
 }
 
 .question-text {
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 
 .answer-section {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-button {
-    background-color: #2b698f6a;
-        border: none;
-        color: white;
-        padding: 20px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        border-radius: 20px;
-    
+.answer-section button {
+  background-color: #2b698f6a;
+      border: none;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      border-radius: 20px;
+  
 }
-
+.nav-container{
+  display: flex;
+  flex-direction: wrap;
+}
 .correct {
-    background-color: #2f922f;
+  background-color: #2f922f;
 }
 
 .incorrect {
-    background-color: #ff3333;
+  background-color: #ff3333;
 }
 
 button:hover {
-    background-color: #555e7d;
+  background-color: #555e7d;
 }
 
 button:focus {
-    outline: none;
+  outline: none;
 }
 
 button svg {
-    margin-right: 5px;
+  margin-right: 5px;
 }
